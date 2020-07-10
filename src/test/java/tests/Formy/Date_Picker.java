@@ -16,6 +16,7 @@ public class Date_Picker {
         Driver.get().get(formyHomePage.url);
 
         clickOnTheDesiredLink1("Datepicker");
+        // changing
         Assert.assertEquals(Driver.get().getCurrentUrl().contains("datepicker"),true);
         Driver.get().close();
     }
