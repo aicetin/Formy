@@ -19,7 +19,11 @@ public class Date_Picker {
         // changing
         Assert.assertEquals(Driver.get().getCurrentUrl().contains("datepicker"),true);
         Driver.get().close();
+
+        System.out.println("formyHomePage = " + formyHomePage);
     }
+    
+    
 
 
 
